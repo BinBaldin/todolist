@@ -2,6 +2,8 @@
 {
     public class Assignment
     {
-        int
+        string nameOfAssignment;
+        int idOfAssignment;
+        bool isDone;
     }
 }

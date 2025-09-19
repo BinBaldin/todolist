@@ -2,5 +2,6 @@
 {
     public class ToDoList
     {
+        private List<Assignment> tasks;
     }
 }
