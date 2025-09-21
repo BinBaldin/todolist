@@ -2,8 +2,10 @@
 {
     public class Assignment
     {
-        string nameOfAssignment;
-        int idOfAssignment;
-        bool isDone;
+        public int idOfAssignment { get; set; }
+        public string nameOfAssignment { get; set;}
+        public string assignmentDescription { get; set;}
+        public bool isDone { get;set;}
     }
+   
 }

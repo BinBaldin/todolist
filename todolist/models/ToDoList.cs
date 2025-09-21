@@ -2,6 +2,9 @@
 {
     public class ToDoList
     {
-        private List<Assignment> tasks;
+        private readonly List<Assignment> tasks;
+        public bool isEmpty;
+        public int count;
     }
+
 }
